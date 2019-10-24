@@ -17,6 +17,7 @@ class VirsualInput {
     int MouseMove(int mask, int x, int y);
     // action 1 down 0 up  keyCode @see linux/input.h input_event-codes.h
     int KeyEvent(int action, int keyCode);
+    int MouseWheelEvent(int direction);
     void LoadScreenInfo(int *width, int *height);
 };
 

@@ -42,3 +42,7 @@ int VirsualInput::MouseMove(int mask, int x, int y) {
 int VirsualInput::KeyEvent(int action, int keyCode) {
     return KeyEvent(action, keyCode);
 }
+
+int VirsualInput::MouseWheelEvent(int direction)  {
+    return IMouseWheelEvent(direction);
+}
