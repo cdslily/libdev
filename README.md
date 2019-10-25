@@ -2,7 +2,7 @@
 # any question email me cdslily@hotmail.com
 这个一个用于linux的虚拟键盘鼠标库
 使用方法 
-在代码中引用virsual_input.h 这个头文件以及type_def.# 
+在代码中引用virsual_input.h 这个头文件以及type_def.h 
 
 VirsualInput* vi = new VisualInput();
  
